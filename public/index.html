@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Threat Radar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header-container">
+        <div class="cyber-header">
+            <span class="shield-icon">🛡️</span> REAL-TIME THREAT MONITOR
+        </div>
+    </div>
+
+    <svg id="map-svg"></svg>
+
+    <div class="logs-container">
+        <div class="logs-header">
+            <span>⚠️ THREAT LOGS</span>
+            <span class="live-indicator">● LIVE</span>
+        </div>
+        <div class="logs-body" id="logs-list">
+        </div>
+    </div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
